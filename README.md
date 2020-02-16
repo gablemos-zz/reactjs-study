@@ -1,2 +1,2 @@
-# GoBarber-ui
-Front end Web with ReactJS
+# Módulo React
+Conteúdo do bootcamp da Rocketseat GoStack
