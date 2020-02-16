@@ -2,8 +2,10 @@ import React from 'react'
 
 import './App.css'
 
+import rafa from './assets/rafa.jpeg'
+
 function App(){
-  return <h1>Hello ReactJS</h1>
+  return  <img width="300" src={rafa} alt="foto rafaela"/>
 }
 
 export default App
