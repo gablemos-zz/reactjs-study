@@ -1,2 +1,2 @@
-# GoBarber-web
+# GoBarber-ui
 Front end Web with ReactJS
