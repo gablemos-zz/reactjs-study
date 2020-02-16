@@ -1,11 +1,11 @@
 import React from 'react'
 
+import TechList from './components/TechList'
+
 import './App.css'
 
-import rafa from './assets/rafa.jpeg'
-
 function App(){
-  return  <img width="300" src={rafa} alt="foto rafaela"/>
+  return  <TechList/>
 }
 
 export default App
