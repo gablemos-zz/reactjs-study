@@ -6,12 +6,14 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'prettier'
+    'prettier',
+    'prettier/react'
   ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -36,6 +38,7 @@ module.exports = {
       "warn",
       { extensions: ['.jsx', '.js']}
     ],
+    "import/prefer-default-export": 'off',
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
     "camelcase": "off",

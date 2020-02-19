@@ -25,7 +25,7 @@
   },
   "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "javascript.suggest.autoImports": false,
+  // "javascript.suggest.autoImports": false,
   "[javascript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
