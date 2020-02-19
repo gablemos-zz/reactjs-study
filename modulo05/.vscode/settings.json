@@ -1,0 +1,54 @@
+// 20200218224451
+// https://raw.githubusercontent.com/gablemos/gobarber-api/master/.vscode/settings.json
+
+{
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  // "javascript.suggest.autoImports": false,
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "mssql.connections": [
+    {
+      "server": "192.168.238.97,1433",
+      "database": "TestDB",
+      "authenticationType": "SqlLogin",
+      "user": "SA",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true
+    }
+  ],
+  "files.eol": "\n",
+  "files.associations": {
+    ".sequelizerc": "javascript"
+  }
+}
