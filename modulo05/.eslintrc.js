@@ -38,7 +38,7 @@ module.exports = {
       "warn",
       { extensions: ['.jsx', '.js']}
     ],
-    "import/prefer-default-export": 'off',
+    "import/prefer-default-export": "off",
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
     "camelcase": "off",
@@ -49,5 +49,6 @@ module.exports = {
       }
     ],
     "semi": [2, "never"],
+    'react/state-in-constructor': "off",
   },
 };
