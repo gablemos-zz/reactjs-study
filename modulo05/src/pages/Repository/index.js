@@ -10,7 +10,7 @@ import { Loading, Owner, IssueList } from './styles'
 export default class Repository extends Component {
   static propTypes = {
     match: PropTypes.shape({
-      prams: PropTypes.shape({
+      params: PropTypes.shape({
         repository: PropTypes.string,
       }),
     }).isRequired,
