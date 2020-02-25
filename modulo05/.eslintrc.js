@@ -50,5 +50,6 @@ module.exports = {
     ],
     "semi": [2, "never"],
     'react/state-in-constructor': "off",
+    'react/static-property-placement': "off"
   },
 };
