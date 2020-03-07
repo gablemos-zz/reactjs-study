@@ -50,6 +50,7 @@ module.exports = {
     ],
     "semi": [2, "never"],
     'react/state-in-constructor': "off",
-    'react/static-property-placement': "off"
+    'react/static-property-placement': "off",
+    'no-console': ["error", { allow : ["tron"]}]
   },
 };
