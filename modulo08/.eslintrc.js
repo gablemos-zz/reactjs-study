@@ -49,10 +49,14 @@ module.exports = {
         "argsIgnorePattern": "next"
       }
     ],
-    "semi": [2, "never"],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next"
+      }
+    ],
     'react/state-in-constructor': "off",
     'react/static-property-placement': "off",
-    'no-console': ["error", { allow : ["tron"]}],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn'
   },
